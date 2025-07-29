@@ -1,0 +1,365 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px
+}
+
+
+.main-container1{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding:3px 0px;
+    padding-left:150px;
+    background-color:#fbedcf ;
+    position: sticky;
+    top:0px
+}
+.menu-container{
+    /* border:2px solid blue; */
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+    
+}
+.menu-container ul li{
+      display:inline;
+      padding-right:50px;
+      font-size: 15px;
+      text-transform: uppercase;
+}
+.menu-container ul li a{
+    text-decoration: none;
+    color:black
+    
+    /* padding:10px; */
+}
+.menu-container ul li a:hover{
+    color:brown
+}
+
+
+/* .icon{
+    margin-left:200px;
+    padding:20px;
+    font-size: 20px;
+    align-content: space-between;
+   
+} */
+ .icon{
+    /* padding-left:50px; */
+
+    font-size: 20px;
+    padding-top:55px;
+    width:50px
+   
+ }
+  img{
+    /* padding:10px */
+    padding-top:40px;
+    padding-bottom: 2px;
+    object-fit: fill;
+  }
+  .main-container2{
+    /* border:2px solid red; */
+    height:400px;
+    
+    
+  }
+  .main-container2 img{
+    width:100%;
+    height:100%;
+    padding:0px
+  }
+
+  .main-container3{
+      /* border:2px solid green; */
+      background-color:#fbedcf ;
+  }
+
+  .container3-item{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: space-around;
+    
+  }
+ .box{
+    /* border:2px solid blue; */
+    padding:20px;
+  
+   
+    
+ }
+ div p{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+ }
+ div h5{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .main-container4{
+  /* border:2px solid red; */
+  display:flex;
+  position:relative;
+  
+ }
+ 
+ .gallery{
+  /* border:2px solid blue; */
+  height:400px;
+  width:300px
+  
+ }
+ .gallery img{
+  width:100%;
+  height:100%;
+  padding-top:0px;
+  filter: opacity(0.5);
+  transition: all 1s ease-in-out;
+  
+  
+ }
+ .gallery img:hover{
+  filter: opacity(1);
+  transform: scale(0.9,0.9);
+  
+ }
+ .main-container5{
+  /* border:2px solid #ff0000; */
+  padding:10px ;
+  display:flex;
+  justify-content: center; 
+  background-color:#fbedcf ;
+              
+ 
+  
+ }
+ .contain-item{
+  /* border:2px solid blue; */
+  width:500px;
+  text-align: center;
+  margin-top: 50px;
+  color:#002a3a
+  
+ }
+ .align-center{
+  margin-top:5px;
+ }
+ 
+ .contain-item button{
+  /* border:2px solid green; */
+  padding:9px 40px;
+  margin-top: 20px;
+  color:white;
+  background-color:#002a3a ;
+  border-radius: 3px;
+
+ }
+ .contain-item button:hover{
+  color:black;
+  background-color: white;
+ }
+ .main-container6{
+  /* border:2px solid red; */
+  display:flex;
+  justify-content: space-around;
+  padding:20px;
+  background-color:#fbedcf ;
+ }
+ .card-item{
+  /* border:2px solid blue; */
+  /* height:50px; */
+  width:200px;
+  
+  padding:10px
+
+
+ }
+ .card-design{
+  /* border:2px solid brown; */
+  width:200px;
+  height:250px;
+  /* padding-top: 0px; */
+  
+ }
+ .card-design img{
+  width:100%;
+  height:100%;
+  padding-top: 0px;
+  border-radius: 9px;
+
+ }
+
+ .align-txt{
+  /* border:2px solid green; */
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color:#002a3a
+  /* font-family: normal; */
+  
+ }
+ .align-txt p{
+  font-size: 10px;
+  font-family: "Roboto Condensed", serif;
+  color:#002a3a
+ }
+   .main-container7{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: space-evenly;
+    padding:10px;
+    background-color:#002a3a ;
+    color:white
+   }
+   .main-item{
+    /* border:2px solid blue; */
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    /* background-color:#002a3a ;
+    color:white */
+
+   }
+   .main-txt{
+    /* border:2px solid black; */
+    width:400px;
+    padding-left: 0px;
+    line-height:30px ;
+   
+    
+   }
+   .main-txt button{
+    border:1px solid white;
+
+    width:200px;
+    height:40px;
+    background-color:#002a3a ;
+    color:white
+   }
+   .main-txt button:hover{
+    background-color: white;
+    color:#002a3a
+   }
+   .main-txt p{
+    padding-left: 0px;
+   }
+   
+   .txt-desin{
+    font-size: 35px;
+    width:400px
+   }
+   .txt-desin div{
+    font-size: 5px;
+   }
+   .main-txt ul li{
+    text-decoration: none;
+   }
+   .main-container8{
+    /* border:2px solid red; */
+    text-align: center;
+    padding:50px 30px 10px;
+    font-size: 25px;
+    color:#002a3a;
+    background-color:#fbedcf ;
+   }
+   .main-container9{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#fbedcf ;
+   }
+   .main-container9 .card-item img{
+    width:100%;
+    height: 100%;
+    margin-top: 0px;
+   }
+   .align-txt h4{
+    font-size: 15px;
+    color:#002a3a
+   }
+   .container10{
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color:#002a3a ;
+    padding:20px
+   }  
+   .con10-txt{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding-right: 15px;
+    color:white;
+    
+    /* height:100px */
+    
+    
+   }
+   .c-txt{
+    /* border:2px solid green; */
+    font-size: 20px;
+    padding-top: 10px;
+    
+   
+   }
+   .c-txt h1{
+    color:white;
+    font-family:  cursive;
+   } 
+
+   .width{
+    height:250px
+   }
+   .c-txt i{
+    padding-left: 10px;
+   }
+   .c-txt img{
+    padding-top: 0px;
+    /* width:100%;
+    height :100% */
+   }
+
+   
+
+   .c-txt h3{
+    font-size: 30px;
+   }
+   .c-txt ul li{
+    line-height: 30px;
+    
+   }
+
+   .c-txt ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 10px;
+    
+   }
+   .space-remove{
+    margin-top: 0px;
+    /* line-height: 10px; */
+
+   }
+   .bgcl{
+    background-color:#002a3a  ;
+    color:white
+   }
+   
+   .adjusting{
+    line-height: 20px;
+   }
+   
+  
+  
