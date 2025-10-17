@@ -11,7 +11,8 @@
 .main-container1{
     /* border:2px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding:3px 0px;
     padding-left:150px;
     background-color:#fbedcf ;
@@ -21,10 +22,15 @@
 .menu-container{
     /* border:2px solid blue; */
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 30px;
+  ;
     
     
+}
+.menu-list{
+  margin-top: 50px;
 }
 .menu-container ul li{
       display:inline;
@@ -107,6 +113,8 @@
  .main-container4{
   /* border:2px solid red; */
   display:flex;
+  flex-wrap: wrap;
+justify-content: center;
   position:relative;
   
  }
@@ -135,6 +143,7 @@
   /* border:2px solid #ff0000; */
   padding:10px ;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center; 
   background-color:#fbedcf ;
               
@@ -169,6 +178,7 @@
  .main-container6{
   /* border:2px solid red; */
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding:20px;
   background-color:#fbedcf ;
@@ -201,6 +211,7 @@
   /* border:2px solid green; */
   margin-top:10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-size: 13px;
   color:#002a3a
@@ -215,6 +226,7 @@
    .main-container7{
     /* border:2px solid red; */
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding:10px;
     background-color:#002a3a ;
@@ -224,6 +236,7 @@
     /* border:2px solid blue; */
     object-fit: cover;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 30px;
@@ -276,6 +289,7 @@
    .main-container9{
     /* border:2px solid red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:#fbedcf ;
    }
@@ -291,6 +305,7 @@
    .container10{
     /* border:2px solid red; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color:#002a3a ;
     padding:20px
@@ -298,6 +313,7 @@
    .con10-txt{
     /* border:2px solid blue; */
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     /* justify-content: space-around; */
     padding-right: 15px;
@@ -360,6 +376,33 @@
    .adjusting{
     line-height: 20px;
    }
+   label{
+    display: none;
+   }
+    input[type] {
+        display: none;
+    }
    
-  
+  @media only screen and (min-width:425px) and (max-width:768px) {
+    
+    .hide {
+        display: none;
+    }
+
+    .bar {
+        margin-top: 40px;
+    }
+
+    input[type] {
+        display: none;
+    }
+
+    .menu-label {
+        display: block;
+    }
+
+    #check:checked+.menu-label+.hide {
+        display: block;
+    }
+  }
   
